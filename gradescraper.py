@@ -1,5 +1,6 @@
 import requests
 from lxml import html
+import os
 import urllib.request
 from bs4 import BeautifulSoup
 from flask import Flask, render_template, request
