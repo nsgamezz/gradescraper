@@ -2,7 +2,6 @@ import requests
 from lxml import html
 import urllib.request
 from bs4 import BeautifulSoup
-from tkinter import *
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
