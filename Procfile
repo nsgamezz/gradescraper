@@ -1,1 +1,1 @@
-web: gunicorn app:gradescraper
+web: gunicorn app:app
