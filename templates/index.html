@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>Login to see grades</h1>
+        <form name="loginform" action="{{ url_for('grades') }}" method="post">
+          Username: <input name="username" type="text" required><br>
+          Password: <input name="password" type="password" required><br>
+          <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
