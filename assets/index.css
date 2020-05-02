@@ -1,0 +1,13 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 25vh;
+}
+form {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40vh;
+    text-align: center;
+}
+body, input {
+    font-size: 1.25em;
+}

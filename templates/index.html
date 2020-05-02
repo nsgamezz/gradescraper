@@ -2,13 +2,17 @@
 <html>
     <head>
         <title>{{ title }}</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+        <link href="../assets/index.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Login to see grades</h1>
+        <h1>Login to see your grades</h1>
         <form name="loginform" action="{{ url_for('grades') }}" method="post">
-          Username: <input name="username" type="text" required><br>
-          Password: <input name="password" type="password" required><br>
-          <input type="submit" value="Submit">
+          <label for="username" >Username: </label><input name="username" type="text" required>
+          <br><br><br><br>
+          <label for="password" >Password: </label><input name="password" type="password" required>
+          <br><br><br><br>
+          <input id="submit-button" type="submit" value="Submit">
         </form>
     </body>
 </html>
