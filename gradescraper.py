@@ -6,8 +6,6 @@ from bs4 import BeautifulSoup
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-#USERNAME = "rajasgan3603"
-#PASSWORD = "Apple7877tond"
 
 LOGIN_URL = "https://ipe-hac.eschoolplus.powerschool.com/HomeAccess/Account/LogOn"
 URL = "https://ipe-hac.eschoolplus.powerschool.com/HomeAccess/Home/WeekView"
